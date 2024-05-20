@@ -23,6 +23,7 @@ This repository is a boilerplate project integrating Laravel, Inertia.js, Svelte
 
 ### Issues
 - `"svelte": "^5.0.0-next.136"` in package.json. `npm install` doesn't always work with this line in `package.json`. You may need to delete this line and manually install `svelte@next`
+- Due to a conflict between the versions of svelte required by different dependencies in this  project install packages use `npm install --legacy-peer-deps`
 
 ### Changes from Docs
 
