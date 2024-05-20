@@ -57,7 +57,7 @@ export default defineConfig({
 ```
 
 ```javascript
-// sresources/js/app.js
+// resources/js/app.js
 import { createInertiaApp } from '@inertiajs/svelte'
 import {mount} from "svelte";
 
