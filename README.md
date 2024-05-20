@@ -22,7 +22,7 @@ This repository is a boilerplate project integrating Laravel, Inertia.js, Svelte
 - Composer
 
 ### Issues
-- "svelte": "^5.0.0-next.136" in package.json. `npm install` doesn't always work with this line in package.json. You may need to delete this line and manually install svelte@next
+- `"svelte": "^5.0.0-next.136"` in package.json. `npm install` doesn't always work with this line in `package.json`. You may need to delete this line and manually install `svelte@next`
 
 ### Changes from Docs
 
@@ -35,7 +35,7 @@ npm install svelte@next @sveltejs/vite-plugin-svelte @inertiajs/svelte
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 export default {
-preprocess: [vitePreprocess()]
+    preprocess: [vitePreprocess()]
 };
 ```
 
