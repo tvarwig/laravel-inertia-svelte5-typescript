@@ -21,7 +21,8 @@ This repository is a boilerplate project integrating Laravel, Inertia.js, Svelte
 - Node.js >= 20
 - Composer
 
-####  "svelte": "^5.0.0-next.136", // you may need to delete this line and manually install svelte@next. Doesn't always install with this in  package.json
+### Issues
+- "svelte": "^5.0.0-next.136" in package.json. `npm install` doesn't always work with this line in package.json. You may need to delete this line and manually install svelte@next
 
 ### Changes from Docs
 
